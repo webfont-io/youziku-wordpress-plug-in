@@ -1,0 +1,1491 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: lizus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-22 19:48+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Lizus <lizus.com@gmail.com>\n"
+"Language-Team: lizus <lizus.com@gmail.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin-panel-ziti.php:10 admin-panel-ziti.php:156
+msgid "初始化设置"
+msgstr ""
+
+#: admin-panel-ziti.php:18 admin-panel-ziti.php:24
+msgid "有字库"
+msgstr ""
+
+#: admin-panel-ziti.php:19
+msgid "有字库ApiKey获取地址：http://www.youziku.com/apiKey/index"
+msgstr ""
+
+#: admin-panel-ziti.php:25
+msgid "有字库UserKey获取地址：http://www.youziku.com/userKey/index"
+msgstr ""
+
+#: admin-panel-ziti.php:30
+msgid "可设置的字体列表："
+msgstr ""
+
+#: admin-panel-ziti.php:31
+msgid ""
+"用于设置用的字体列表，请保持一行一个字体，使用【字体名称/ID】的方式，如:魏碑"
+"简粗体/46979 其中ID为对应字体介绍页URL的最后一段。 具体帮助地址：http://www."
+"youziku.com/"
+msgstr ""
+
+#: admin-panel-ziti.php:38
+msgid "导入/导出："
+msgstr ""
+
+#: admin-panel-ziti.php:39
+msgid ""
+"将字体设置内容粘贴在此，然后点导入即可完成导入。点击导出按钮，即可在此获得设"
+"置数据，可保存在任何地方。"
+msgstr ""
+
+#: admin-panel-ziti.php:67
+msgid "导出成功，请复制【导入/导出】文本框中内容另行保存。"
+msgstr ""
+
+#: admin-panel-ziti.php:87
+msgid "导入成功，请尽情享用。"
+msgstr ""
+
+#: admin-panel-ziti.php:93
+msgid "请先设置好ApiKey并保存修改再导入。"
+msgstr ""
+
+#: admin-panel-ziti.php:123
+msgid "收藏字体已导入。"
+msgstr ""
+
+#: admin-panel-ziti.php:126 admin-panel-ziti.php:149
+msgid "有错误发生，请正确填写并重新保存。"
+msgstr ""
+
+#: admin-panel-ziti.php:130
+msgid "无法导入收藏字体，请重试。"
+msgstr ""
+
+#: admin-panel-ziti.php:134
+msgid "请先设置好ApiKey并保存修改再导入收藏字体。"
+msgstr ""
+
+#: admin-panel-ziti.php:146
+msgid "设置已保存，<a href=\""
+msgstr ""
+
+#: admin-panel-ziti.php:170
+msgid "设置导入/导出"
+msgstr ""
+
+#: admin-panel-ziti.php:171
+msgid "导入字体设置前，请先设置好ApiKey。"
+msgstr ""
+
+#: admin-panel.php:10 admin-panel.php:103
+msgid "有字库设置"
+msgstr ""
+
+#: admin-panel.php:35
+msgid "字体选择"
+msgstr ""
+
+#: admin-panel.php:36 admin-panel.php:58 admin-panel.php:65
+msgid ""
+"字体列表请在初始化设置中填写。如无法正确显示，请确认您有相应字体的权限，并检"
+"查您输入的字体名称及ID是否与官网一致。"
+msgstr ""
+
+#: admin-panel.php:42
+msgid "字体应用Class"
+msgstr ""
+
+#: admin-panel.php:43
+msgid ""
+"使用CSS选择器语法设定，多个选择器间使用英文逗号分隔，如不会填写请联系有字库客"
+"服。示例：.post .title,.post .meta"
+msgstr ""
+
+#: admin-panel.php:48
+msgid "字体应用以下文字"
+msgstr ""
+
+#: admin-panel.php:49
+msgid ""
+"贴入文字保存后会自动格式化。可使用[0-9][a-z][A-Z]三组写法分别表示数字，小写字"
+"母和大写字母，[tags]表示所有标签，[cats]表示所有分类。"
+msgstr ""
+
+#: admin-panel.php:57
+msgid "文章标题字体选择"
+msgstr ""
+
+#: admin-panel.php:64
+msgid "文章内容字体选择"
+msgstr ""
+
+#: admin-panel.php:98
+msgid "设置已保存。"
+msgstr ""
+
+#: admin-panel.php:143
+msgid "文章字体设置"
+msgstr ""
+
+#: admin-panel.php:153
+msgid "新增自定义字体设置"
+msgstr ""
+
+#: functions.php:18
+msgid "无...."
+msgstr ""
+
+#: functions.php:43
+msgid "忽略此通知。"
+msgstr ""
+
+#~ msgid "Spark Posts List, many settings."
+#~ msgstr "Spark文章列表,包含许多设定."
+
+#~ msgid "Spark Posts List"
+#~ msgstr "Spark文章列表"
+
+#~ msgid "Recent Posts"
+#~ msgstr "最新文章"
+
+#~ msgid "Title:"
+#~ msgstr "标题:"
+
+#~ msgid "Show Number:"
+#~ msgstr "显示数量:"
+
+#~ msgid "Order:"
+#~ msgstr "排序:"
+
+#~ msgid "Orderby:"
+#~ msgstr "排序项:"
+
+#~ msgid "Show Title:"
+#~ msgstr "显示标题"
+
+#~ msgid "Show Excerpt:"
+#~ msgstr "显示摘要:"
+
+#~ msgid "Excerpt Length: <small>(if show excerpt is yes)</small>"
+#~ msgstr "摘要长度:<small>(如果显示摘要为 yes)</small>"
+
+#~ msgid "Show only Category:"
+#~ msgstr "仅显示分类:"
+
+#~ msgid "All category"
+#~ msgstr "所有分类"
+
+#~ msgid "Name"
+#~ msgstr "名称"
+
+#~ msgid "random posts"
+#~ msgstr "随便看看"
+
+#~ msgid "search"
+#~ msgstr "搜索"
+
+#~ msgid "Sorry, comments are closed for this item."
+#~ msgstr "留言已关闭."
+
+#~ msgid "Password Protected"
+#~ msgstr "密码保护"
+
+#~ msgid "Sorry, you must be logged in to post a comment."
+#~ msgstr "您必须 <a href=\"%s\">登录</a> 才能留言."
+
+#~ msgid "Error: please fill the required fields (name, email)."
+#~ msgstr "错误:请填写必要选项(姓名,邮件Email)."
+
+#~ msgid "Error: please enter a valid email address."
+#~ msgstr "错误:请输入Email地址"
+
+#~ msgid "Error: please type a comment."
+#~ msgstr "错误:请输入留言内容"
+
+#~ msgid "You are posting comments too quickly.  Slow down."
+#~ msgstr "你写得太快了,等会吧."
+
+#~ msgid "No Comment"
+#~ msgstr "没有留言"
+
+#~ msgid "One Comment"
+#~ msgstr "1条留言"
+
+#~ msgid "% Comments"
+#~ msgstr "%条留言"
+
+#~ msgid "Read More\t&raquo;"
+#~ msgstr "详细内容\t&raquo;"
+
+#~ msgid "tags : "
+#~ msgstr "关键词 : "
+
+#~ msgid "404 page"
+#~ msgstr "404页面"
+
+#~ msgid "archive"
+#~ msgstr "存档"
+
+#~ msgid "search result"
+#~ msgstr "搜索结果"
+
+#~ msgid "Pages:"
+#~ msgstr "页面: "
+
+#~ msgid "<span>Next</span>"
+#~ msgstr "<span>下一页</span>"
+
+#~ msgid "No Responses"
+#~ msgstr "暂时没有回复"
+
+#~ msgid "One Response"
+#~ msgstr "有一条回复"
+
+#~ msgid "% Responses"
+#~ msgstr "已有% 条回复"
+
+#~ msgid "in : %s"
+#~ msgstr "分类: %s"
+
+#~ msgid "Edit this entry"
+#~ msgstr "编辑"
+
+#~ msgid "Multi Content"
+#~ msgstr "混合内容"
+
+#~ msgid "Select"
+#~ msgstr "选择"
+
+#~ msgid "Upload Image"
+#~ msgstr "上传图片"
+
+#~ msgid ""
+#~ "please open about:config,and set signed.applets."
+#~ "codebase_principal_support true."
+#~ msgstr ""
+#~ "该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将"
+#~ "项 signed.applets.codebase_principal_support 值该为true"
+
+#~ msgid ""
+#~ "This post is password protected. Enter the password to view comments."
+#~ msgstr "该内容已被密码保护"
+
+#~ msgid "Comments are closed."
+#~ msgstr "留言已关闭."
+
+#~ msgid "Email"
+#~ msgstr "邮箱"
+
+#~ msgid "Website"
+#~ msgstr "网址"
+
+#~ msgid "Comment"
+#~ msgstr "留言"
+
+#~ msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+#~ msgstr "您必须 <a href=\"%s\">登录</a> 才能留言."
+
+#~ msgid "Your email address will not be published."
+#~ msgstr "邮箱地址不会公开."
+
+#~ msgid "Leave a Reply"
+#~ msgstr "请留言"
+
+#~ msgid "Leave a Reply to %s"
+#~ msgstr "给 %s 留言"
+
+#~ msgid "Cancel reply"
+#~ msgstr "取消回复"
+
+#~ msgid "Submit Comment"
+#~ msgstr "提交留言"
+
+#~ msgid "Thanks for your response"
+#~ msgstr "感谢您的留言"
+
+#~ msgid "Edit This"
+#~ msgstr "编辑"
+
+#~ msgid "Spark Themes Settings"
+#~ msgstr "Spark主题设置"
+
+#~ msgid "get help"
+#~ msgstr "获得帮助"
+
+#~ msgid "need help?"
+#~ msgstr "寻求帮助?"
+
+#~ msgid "Setting updated."
+#~ msgstr "设置已保存."
+
+#~ msgid "Setting reset."
+#~ msgstr "重置设置"
+
+#~ msgid "Reset Default"
+#~ msgstr "重置默认设定"
+
+#~ msgid "home"
+#~ msgstr "首页"
+
+#~ msgid "Slide Image"
+#~ msgstr "幻灯图片"
+
+#~ msgid ""
+#~ "Input image URL if you want to show it in the slide box,allows out-site "
+#~ "URLs. Also you can upload it, and after upload, please copy you image URL "
+#~ "and paste here."
+#~ msgstr ""
+#~ "请输入您要用于幻灯区域的图片地址,允许使用站外图片.如果通过上传,请于上传后"
+#~ "复制图片地址粘贴此处."
+
+#~ msgid "Show On Homepage"
+#~ msgstr "展示在首页上"
+
+#~ msgid "enabled"
+#~ msgstr "启用"
+
+#~ msgid "Sorry! Article not found!"
+#~ msgstr "抱歉! 这个文章并不存在,感谢您的关注.谢谢!"
+
+#~ msgid "back home"
+#~ msgstr "返回首页"
+
+#~ msgid "recent posts"
+#~ msgstr "最新发布"
+
+#~ msgid "most commented posts"
+#~ msgstr "热评文章"
+
+#~ msgid "recent comments"
+#~ msgstr "最新留言"
+
+#~ msgid "tags"
+#~ msgstr "关键词"
+
+#~ msgid "Bookmarks"
+#~ msgstr "友情链接"
+
+#~ msgid "empty title"
+#~ msgstr "空白标题"
+
+#~ msgid "single category"
+#~ msgstr "单个分类"
+
+#~ msgid "multi categories"
+#~ msgstr "多个分类"
+
+#~ msgid "posts or pages"
+#~ msgstr "文章或页面"
+
+#~ msgid "Slide Settings"
+#~ msgstr "幻灯设置"
+
+#~ msgid "Slide This?"
+#~ msgstr "设为幻灯?"
+
+#~ msgid "Select if you want display this as slide. "
+#~ msgstr "选择是否用于幻灯."
+
+#~ msgid "Slide Display"
+#~ msgstr "幻灯显示方式"
+
+#~ msgid "Select how to display slide content. "
+#~ msgstr "选择当前的幻灯显示哪些内容."
+
+#~ msgid "Image Only"
+#~ msgstr "仅使用图片"
+
+#~ msgid "Slide Image Target URL"
+#~ msgstr "幻灯图片链接地址"
+
+#~ msgid "Input your special links here for this slide image"
+#~ msgstr "设置点击此幻灯图片跳转的地址,如非此文章地址,请在此输入."
+
+#~ msgid "Use Slide Image Link ?"
+#~ msgstr "使用幻灯图片链接?"
+
+#~ msgid "Select no if you do not want link the image. "
+#~ msgstr "选择是否使用图片链接."
+
+#~ msgid "Slide Content"
+#~ msgstr "幻灯内容"
+
+#~ msgid ""
+#~ "Use for slide content. Must select display multi content to enable this. "
+#~ msgstr "用于幻灯内容显示.必须选择显示混合内容才有效."
+
+#~ msgid "Slide Content Background Image"
+#~ msgstr "幻灯背景图片"
+
+#~ msgid "Slide Content Align"
+#~ msgstr "幻灯内容位置"
+
+#~ msgid ""
+#~ "Select slide content align. Must select use slide content to enable this. "
+#~ msgstr "选择幻灯内容的位置.必须选择显示混合内容才有效."
+
+#~ msgid "SEO Settings"
+#~ msgstr "SEO设置"
+
+#~ msgid ""
+#~ "Use for head title. Most search engines use a maximum of 60 chars for the "
+#~ "title. "
+#~ msgstr ""
+#~ "SEO标题会出现在页面代码Head区域中,并显示于浏览器的标题栏.通常搜索引擎建议"
+#~ "不超过60个字符."
+
+#~ msgid "SEO Description"
+#~ msgstr "SEO描述"
+
+#~ msgid ""
+#~ "Use for meta 'description'. Most search engines use a maximum of 160 "
+#~ "chars for the description. "
+#~ msgstr "SEO描述会出现在Head区域的description中,通常建议不超过160个字符."
+
+#~ msgid "SEO Keywords"
+#~ msgstr "SEO关键词"
+
+#~ msgid "Use for meta 'keywords'. "
+#~ msgstr ""
+#~ "SEO关键词会出现在代码Head中的keywords中,以英文状态逗号分隔,一般不建议太多"
+#~ "词."
+
+#~ msgid "help"
+#~ msgstr "帮助中心"
+
+#~ msgid "general"
+#~ msgstr "常规"
+
+#~ msgid "layout"
+#~ msgstr "布局"
+
+#~ msgid "Code & AD"
+#~ msgstr "代码/广告"
+
+#~ msgid "navigation"
+#~ msgstr "导航"
+
+#~ msgid "first setting"
+#~ msgstr "首次设定"
+
+#~ msgid "Homepage"
+#~ msgstr "首页"
+
+#~ msgid "help info"
+#~ msgstr "帮助信息"
+
+#~ msgid "Custom Logo"
+#~ msgstr "您的Logo"
+
+#~ msgid ""
+#~ "Here to upload your website logo. You can upload image eg: gif,jpg,png.Or "
+#~ "specify the image address of your online logo."
+#~ msgstr ""
+#~ "你可以上传以下图片格式:GIF,JPG,PNG.或者在输入框中填入您的Logo的图片地址."
+
+#~ msgid "http://wordpress.lizus.com/help/en/archives/92"
+#~ msgstr "http://wordpress.lizus.com/help/archives/40"
+
+#~ msgid "Custom Favicon"
+#~ msgstr "地址栏小图标"
+
+#~ msgid ""
+#~ "Here to upload your website favicon. Upload a 16px x 16px Png/Gif image "
+#~ "that will represent your website's favicon.Or specify the favicon address "
+#~ "of your online favicon."
+#~ msgstr ""
+#~ "地址栏小图标使用16px*16px大小,PNG/GIF格式图像.或者在输入框中填入你的小图标"
+#~ "的地址."
+
+#~ msgid "Custom RSS URL"
+#~ msgstr "您的RSS地址"
+
+#~ msgid "Here to input your custom rss url"
+#~ msgstr "请在此输入你想让浏览者知道的RSS地址"
+
+#~ msgid "http://wordpress.lizus.com/help/en/archives/94"
+#~ msgstr "http://wordpress.lizus.com/help/archives/45"
+
+#~ msgid "Smiles"
+#~ msgstr "表情"
+
+#~ msgid "Custom Smiles Setting"
+#~ msgstr "表情设置"
+
+#~ msgid ""
+#~ "Here to input your custom smiles folder name, if you put them in this "
+#~ "themes folder. Or you can put a absolute url of your custom smiles folder,"
+#~ "must begin with \"http://\", and end with \"/\"."
+#~ msgstr ""
+#~ "此处填写你的表情文件夹地址,如果你放在当前主题的文件夹中的images/smilies/中"
+#~ "的话,直接填写你的表情文件夹的名称.<br/>如果你使用另外的地址存放表情文件夹,"
+#~ "请填写你的表情文件夹的绝对地址,以\"http\"开头,并以\"/\"结束."
+
+#~ msgid "Custom No Image"
+#~ msgstr "默认缺失图像"
+
+#~ msgid "Here to upload your no image."
+#~ msgstr "请在此上传默认缺失图像"
+
+#~ msgid "http://wordpress.lizus.com/help/en/archives/123"
+#~ msgstr "http://wordpress.lizus.com/help/archives/80"
+
+#~ msgid "Slide"
+#~ msgstr "幻灯"
+
+#~ msgid "Slide Use"
+#~ msgstr "幻灯使用项选择"
+
+#~ msgid "Posts or Pages IDs"
+#~ msgstr "文章或页面IDs"
+
+#~ msgid "comma separated."
+#~ msgstr "以英文状态逗号分隔."
+
+#~ msgid "Single Category IDs"
+#~ msgstr "单个分类IDs"
+
+#~ msgid "Must select use single category."
+#~ msgstr "必须选择使用单个分类才有效."
+
+#~ msgid "Multi Categories"
+#~ msgstr "多个分类"
+
+#~ msgid "Default Slide Limit"
+#~ msgstr "默认幻灯最大数量"
+
+#~ msgid "Numbers only."
+#~ msgstr "仅允许数字."
+
+#~ msgid "Slide Speed"
+#~ msgstr "幻灯速度"
+
+#~ msgid "Numbers only, 1000 for 1 second. "
+#~ msgstr "只允许使用数字,1000代表1秒."
+
+#~ msgid "Default Slide Derection"
+#~ msgstr "默认幻灯方式"
+
+#~ msgid "Default Slide Width"
+#~ msgstr "默认幻灯宽度"
+
+#~ msgid "Default Slide Height"
+#~ msgstr "默认幻灯高度"
+
+#~ msgid "http://wordpress.lizus.com/help/en/archives/122"
+#~ msgstr "http://wordpress.lizus.com/help/archives/77"
+
+#~ msgid "Category Title Format"
+#~ msgstr "分类标题格式"
+
+#~ msgid "The following macros are supported: "
+#~ msgstr "支持以下标记方式:"
+
+#~ msgid "%site_title% - Your site title "
+#~ msgstr "%site_title% - 表示你的站点标题"
+
+#~ msgid "%tagline% - Your site tagline "
+#~ msgstr "%tagline% - 表示你的站点副标题"
+
+#~ msgid "%cat-name% - The category name "
+#~ msgstr "%cat-name% - 表示分类名称"
+
+#~ msgid "%cat-description% - The category description "
+#~ msgstr "%cat-description% - 表示分类描述"
+
+#~ msgid "Archive Title Format"
+#~ msgstr "存档标题格式"
+
+#~ msgid ""
+#~ "%date% - The original archive title given by wordpress, e.g. \"2010\" or "
+#~ "\"2010 August\""
+#~ msgstr ""
+#~ "%date% - 表示由WordPress输出的原始的时间标题,比如  \"2010\" 或者 \"2010 八"
+#~ "月\""
+
+#~ msgid "Archive"
+#~ msgstr "存档"
+
+#~ msgid "Tag Title Format"
+#~ msgstr "Tag标题格式"
+
+#~ msgid "%tag-name% - The tag name "
+#~ msgstr "%tag-name% - 表示文章标签名称"
+
+#~ msgid "%tag-description% - The tag description "
+#~ msgstr "%tag-description% - 表示文章标签的描述"
+
+#~ msgid "Tags"
+#~ msgstr "关键词"
+
+#~ msgid "Author Posts Title Format"
+#~ msgstr "作者文章列表页标题格式"
+
+#~ msgid "%author% - The author name"
+#~ msgstr "%author% - 表示作者名字"
+
+#~ msgid "Author"
+#~ msgstr "作者"
+
+#~ msgid "Search Result Title Format"
+#~ msgstr "搜索结果页标题格式"
+
+#~ msgid "%search% - What you searched for"
+#~ msgstr "%search% - 表示搜索的内容"
+
+#~ msgid "Search"
+#~ msgstr "搜索"
+
+#~ msgid "Post Title Format"
+#~ msgstr "文章页标题格式"
+
+#~ msgid "%post-title% - The post title "
+#~ msgstr "%post-title% - 表示文章标题"
+
+#~ msgid "%post-keywords% - The post keywords "
+#~ msgstr "%post-keywords% - 表示文章关键词"
+
+#~ msgid "%post-cat% - The post main category name "
+#~ msgstr "%post-cat% - 表示文章分类名称"
+
+#~ msgid "%post-author% - The post author name"
+#~ msgstr "%post-author% - 表示文章作者名字"
+
+#~ msgid "Page Title Format"
+#~ msgstr "页面标题格式"
+
+#~ msgid "%page-title% - The page title "
+#~ msgstr "%page-title% - 表示页面标题"
+
+#~ msgid "%page-keywords% - The page keywords "
+#~ msgstr "%page-keywords% - 表示页面关键词"
+
+#~ msgid "%page-parent% - The parent page name "
+#~ msgstr "%page-parent% - 表示上级页面名称"
+
+#~ msgid "%page-author% - The page author name"
+#~ msgstr "%page-author% - 表示页面作者名字"
+
+#~ msgid "Home Page Title"
+#~ msgstr "主页标题"
+
+#~ msgid ""
+#~ "Input the title of your homepage. Most search engines use a maximum of 60 "
+#~ "chars for the title."
+#~ msgstr "请输入你的主页标题.通常不要超过60个字符."
+
+#~ msgid "Home Page Description"
+#~ msgstr "主页描述"
+
+#~ msgid ""
+#~ "Input your custom home page description here, it will appear in the "
+#~ "<head> code. Most search engines use a maximum of 160 chars for the "
+#~ "description."
+#~ msgstr "请输入你的主页描述,通常不要超过160个字符."
+
+#~ msgid "Home Page Keywords"
+#~ msgstr "主页关键词"
+
+#~ msgid ""
+#~ "Input your most important keywords here, comma separated. It will appear "
+#~ "in the <head> code as META keywords on your homepage."
+#~ msgstr "请输入你的主页关键词"
+
+#~ msgid "http://wordpress.lizus.com/help/en/archives/111"
+#~ msgstr "http://wordpress.lizus.com/help/archives/69"
+
+#~ msgid "Head Code"
+#~ msgstr "Head代码"
+
+#~ msgid "It will used in &lt;head&gt; area."
+#~ msgstr "使用在 &lt;head&gt; 区域."
+
+#~ msgid "http://wordpress.lizus.com/help/en/archives/112"
+#~ msgstr "http://wordpress.lizus.com/help/archives/71"
+
+#~ msgid "Copyright Info"
+#~ msgstr "底部版权信息"
+
+#~ msgid "It will replace footer copyright info."
+#~ msgstr "此内容将会替换底部版权信息"
+
+#~ msgid "http://wordpress.lizus.com/help/en/archives/120"
+#~ msgstr "http://wordpress.lizus.com/help/archives/73"
+
+#~ msgid "Footer Code"
+#~ msgstr "底部代码"
+
+#~ msgid ""
+#~ "It used in footer template close &lt;/body&gt;, so, if you want to make "
+#~ "some code there, put it here. e.g. your Google Analytics (or other) "
+#~ "tracking code."
+#~ msgstr "此内容使用在紧跟&lt;/body&gt;之前,例如放一些统计代码."
+
+#~ msgid "default posts per page "
+#~ msgstr "默认每页文章数"
+
+#~ msgid "post pages show at most: "
+#~ msgstr "每页列表显示文章数:"
+
+#~ msgid "slide show"
+#~ msgstr "幻灯"
+
+#~ msgid "http://wordpress.lizus.com/help/en/archives/96"
+#~ msgstr "http://wordpress.lizus.com/help/archives/52"
+
+#~ msgid "Theme Color Select"
+#~ msgstr "主题色彩设定"
+
+#~ msgid "Select which color you want."
+#~ msgstr "选择你想要使用的主题色彩."
+
+#~ msgid "January"
+#~ msgstr "一月"
+
+#~ msgid "February"
+#~ msgstr "二月"
+
+#~ msgid "March"
+#~ msgstr "三月"
+
+#~ msgid "April"
+#~ msgstr "四月"
+
+#~ msgid "May"
+#~ msgstr "五月"
+
+#~ msgid "June"
+#~ msgstr "六月"
+
+#~ msgid "July"
+#~ msgstr "七月"
+
+#~ msgid "August"
+#~ msgstr "八月"
+
+#~ msgid "September"
+#~ msgstr "九月"
+
+#~ msgid "October"
+#~ msgstr "十月"
+
+#~ msgid "November"
+#~ msgstr "十一月"
+
+#~ msgid "December"
+#~ msgstr "十二月"
+
+#~ msgid "Theme Settings"
+#~ msgstr "主题设置"
+
+#~ msgid "It has been deleted."
+#~ msgstr "已删除."
+
+#~ msgid "Error, I can not delete it."
+#~ msgstr "错误:无法删除."
+
+#~ msgid "Click to view the original picture."
+#~ msgstr "点击查看原始图片."
+
+#~ msgid "Can not preview."
+#~ msgstr "无法预览."
+
+#~ msgid "Delete It"
+#~ msgstr "删除它"
+
+#~ msgid "Select a Category"
+#~ msgstr "选择一个分类"
+
+#~ msgid "Select a Page"
+#~ msgstr "选择一个页面"
+
+#~ msgid "Click to change"
+#~ msgstr "点击更改"
+
+#~ msgid "Slide Item"
+#~ msgstr "幻灯项"
+
+#~ msgid " image src:"
+#~ msgstr "图片源文件:"
+
+#~ msgid "Can not preview an outsite image."
+#~ msgstr "无法预览站外图片."
+
+#~ msgid " image links to:"
+#~ msgstr "图像链接至:"
+
+#~ msgid " code:"
+#~ msgstr "代码: "
+
+#~ msgid ""
+#~ "Are you sure you want to reset to default values of all the settings?"
+#~ msgstr "你是否确定要重置所有选项为默认设定?"
+
+#~ msgid "Uploading"
+#~ msgstr "上传中"
+
+#~ msgid "Spark Comments List, many settings."
+#~ msgstr "Spark评论列表,包含许多设置."
+
+#~ msgid "Spark Comments List"
+#~ msgstr "Spark评论列表"
+
+#~ msgid "Recent Comments"
+#~ msgstr "最新留言"
+
+#~ msgid " write on "
+#~ msgstr "发表在"
+
+#~ msgid "Title Link To:"
+#~ msgstr "标题链接至:"
+
+#~ msgid "Show Name:"
+#~ msgstr "显示名字:"
+
+#~ msgid "Show Avatar:"
+#~ msgstr "显示头像:"
+
+#~ msgid "Avatar Size:<small>(if show avatar is yes)</small>"
+#~ msgstr "头像大小:<small>(如果显示头像为 yes)</small>"
+
+#~ msgid "One post or page ID, Only show its comments"
+#~ msgstr "显示单个文章或页面的留言(输入这个文章或页面的ID):"
+
+#~ msgid "Same Category"
+#~ msgstr "相同分类"
+
+#~ msgid "Show only Posts:"
+#~ msgstr "仅显示这些文章或页面:"
+
+#~ msgid "Show Thumbnail:"
+#~ msgstr "显示缩略图:"
+
+#~ msgid "Thumbnail Size Width:<small>(if show thumbnail is yes)</small>"
+#~ msgstr "缩略图宽度:<small>(如果显示缩略图为 yes)</small>"
+
+#~ msgid "Thumbnail Size Height:<small>(if show thumbnail is yes)</small>"
+#~ msgstr "缩略图高度:<small>(如果显示缩略图为 yes)</small>"
+
+#~ msgid "Contact Us"
+#~ msgstr "联系我们"
+
+#~ msgid "(required)"
+#~ msgstr "(必须)"
+
+#~ msgid "Parameter Settings"
+#~ msgstr "参数设置"
+
+#~ msgid "Primary Navigation"
+#~ msgstr "主导航"
+
+#~ msgid "Footer Navigation"
+#~ msgstr "底部导航"
+
+#~ msgid "Toper Navigation"
+#~ msgstr "顶部导航"
+
+#~ msgid "Sidebar Top Area"
+#~ msgstr "侧边栏顶部区域"
+
+#~ msgid "The sidebar top area, if not use, it will display defaults."
+#~ msgstr "侧边栏顶部区域,如不使用,请留空."
+
+#~ msgid "Sidebar Multi Area "
+#~ msgstr "侧边栏Tab区域"
+
+#~ msgid "The sidebar multi area, if not use, keep it empty."
+#~ msgstr "侧边栏Tab区域,如不使用,请留空."
+
+#~ msgid "Sidebar Bottom Area"
+#~ msgstr "侧边栏底部区域"
+
+#~ msgid "colorization"
+#~ msgstr "色彩"
+
+#~ msgid "primary nav"
+#~ msgstr "主导航"
+
+#~ msgid "top nav"
+#~ msgstr "顶部导航"
+
+#~ msgid "footer nav"
+#~ msgstr "底部导航"
+
+#~ msgid "http://wordpress.lizus.com/help/en/archives/121"
+#~ msgstr "http://wordpress.lizus.com/help/archives/75"
+
+#~ msgid "Show Home Link"
+#~ msgstr "显示首页链接"
+
+#~ msgid "navigation depth"
+#~ msgstr "导航层级"
+
+#~ msgid "show pages"
+#~ msgstr "显示页面"
+
+#~ msgid "show cagegories"
+#~ msgstr "显示分类"
+
+#~ msgid "select pages"
+#~ msgstr "选择页面"
+
+#~ msgid "if show page enabled"
+#~ msgstr "如果启用页面"
+
+#~ msgid "select categories"
+#~ msgstr "选择分类"
+
+#~ msgid "if show categories enabled"
+#~ msgstr "如果启用分类"
+
+#~ msgid "Background Color Select"
+#~ msgstr "背景色设定"
+
+#~ msgid "Select your background color."
+#~ msgstr "选择你想要的背景色."
+
+#~ msgid "Default Slide Thumbnail Width"
+#~ msgstr "默认幻灯缩略图宽度"
+
+#~ msgid "Default Slide Thumbnail Height"
+#~ msgstr "默认幻灯缩略图高度"
+
+#~ msgid "Slide Extra"
+#~ msgstr "幻灯额外信息显示设定"
+
+#~ msgid "Links Page Select"
+#~ msgstr "友情链接页面设定"
+
+#~ msgid "Select the page which you want to recognized as links page."
+#~ msgstr "选择你想要作为友情链接的页面."
+
+#~ msgid "List show Category"
+#~ msgstr "列表分类"
+
+#~ msgid "Select categories show list style."
+#~ msgstr "选择以列表形式出现的分类"
+
+#~ msgid "List Category showposts"
+#~ msgstr "列表形式分类每页显示数目"
+
+#~ msgid ""
+#~ "Please press question mark icon to get help. Or visit http://wordpress."
+#~ "lizus.com/help/en/ to search what you need. And feel free to contact me: "
+#~ "lizus.com@gmail.com"
+#~ msgstr ""
+#~ "需要帮助时请留意各项标题右侧的问号图标,通常点击等待数秒号会出现相应的解答"
+#~ "页面,如果没有显示,也可以打开http://wordpress.lizus.com/help/ 来查找相应的"
+#~ "问题答案.如果仍然无法解决,请将问题详细描述并发邮件至 lizus.com@gmail.com"
+
+#~ msgid "Set your advertise & code"
+#~ msgstr "代码及广告设定"
+
+#~ msgid "Spark Code & Advertise"
+#~ msgstr "Spark代码及广告"
+
+#~ msgid "Images Type"
+#~ msgstr "图片类型"
+
+#~ msgid "Code Type"
+#~ msgstr "代码类型"
+
+#~ msgid "Image Source:"
+#~ msgstr "图片源文件:"
+
+#~ msgid "Image Target URL: <small>set image source first</small>"
+#~ msgstr "图片目标地址:<small>请先设定图片源文件</small>"
+
+#~ msgid "Code:"
+#~ msgstr "代码:"
+
+#~ msgid "Spark Flickr Photos"
+#~ msgstr "Spark Flickr相册"
+
+#~ msgid "Photos on <span>Flick<span>r</span></span>"
+#~ msgstr "<span>Flick<span>r</span></span>相册"
+
+#~ msgid "Number:"
+#~ msgstr "数目:"
+
+#~ msgid "Type:"
+#~ msgstr "类型:"
+
+#~ msgid "User"
+#~ msgstr "用户"
+
+#~ msgid "Group"
+#~ msgstr "组:"
+
+#~ msgid "Sorting:"
+#~ msgstr "排列:"
+
+#~ msgid "Latest"
+#~ msgstr "最新"
+
+#~ msgid "Random"
+#~ msgstr "随机"
+
+#~ msgid "%s followers"
+#~ msgstr "%s followers"
+
+#~ msgid "Error while retrieving tweets (Twitter down?)"
+#~ msgstr "读取Tweets出错"
+
+#~ msgid "Shows your latest Twitter updates"
+#~ msgstr "显示你的Twitter更新"
+
+#~ msgid "Spark - Twitter Stream"
+#~ msgstr "Spark  Twitter设定"
+
+#~ msgid "Loading tweets..."
+#~ msgstr "载入tweets..."
+
+#~ msgid "My latest tweets"
+#~ msgstr "最新Tweets"
+
+#~ msgid "Twitter user name:"
+#~ msgstr "Twitter用户名:"
+
+#~ msgid "Number of tweets to show:"
+#~ msgstr "显示Tweets数量:"
+
+#~ msgid "here write a title"
+#~ msgstr "此处写标题"
+
+#~ msgid "use this"
+#~ msgstr "使用这个"
+
+#~ msgid "here for link url"
+#~ msgstr "此处写链接地址"
+
+#~ msgid "make a links title"
+#~ msgstr "制作带链接的标题"
+
+#~ msgid "content begin"
+#~ msgstr "内容开始"
+
+#~ msgid ""
+#~ "here to write content,allows HTML. First line : 'right_bottom' can be "
+#~ "changed by: left_top, left_bottom, right_top, right_bottom, align_center."
+#~ msgstr ""
+#~ "此处填写内容,允许使用HTML标签,首行的: 'right_bottom'可替换为: left_top, "
+#~ "left_bottom, right_top, right_bottom, align_center."
+
+#~ msgid "content end"
+#~ msgstr "内容结束"
+
+#~ msgid "Copy this code to below box and modify follow the prompts:"
+#~ msgstr "复制以上代码至下面的文本框并按提示填入内容:"
+
+#~ msgid "Footer Area"
+#~ msgstr "页尾区域"
+
+#~ msgid "The footer area, if not use, it will display defaults."
+#~ msgstr "页尾区域,如不使用,请留空."
+
+#~ msgid "photos setting"
+#~ msgstr "相册设定"
+
+#~ msgid "Ajax Page Select"
+#~ msgstr "Ajax功能页面设定"
+
+#~ msgid ""
+#~ "Select the page which you want to recognized as ajax page, it is a "
+#~ "function page for ajax, so do not put it in your navigation."
+#~ msgstr ""
+#~ "选择Ajax功能页面.此页面只用于Ajax数据读取,在主题开始使用时请建一空白页面,"
+#~ "并在此选择."
+
+#~ msgid "GuestBook Page Select"
+#~ msgstr "留言页面设定"
+
+#~ msgid "Select the page which you want to recognized as guestbook page."
+#~ msgstr "选择你想要作为留言的页面."
+
+#~ msgid "Help Page Select"
+#~ msgstr "帮助页面设定"
+
+#~ msgid "Select the page which you want to recognized as help page."
+#~ msgstr "选择你想要作为帮助的页面."
+
+#~ msgid "Photos Root Category"
+#~ msgstr "相册根目录设定"
+
+#~ msgid "Select categoris set as photo category so as the subcategories."
+#~ msgstr "选择分类作为相册根目录,这样,其子分类也会作为相册分类来识别."
+
+#~ msgid "Photos Category showposts"
+#~ msgstr "相册分类每页展示数量设定"
+
+#~ msgid "Comments"
+#~ msgstr "留言"
+
+#~ msgid "Share"
+#~ msgstr "分享至"
+
+#~ msgid "posted by :"
+#~ msgstr "作者:"
+
+#~ msgid "Shop Parameter Settings"
+#~ msgstr "网店参数设置"
+
+#~ msgid "Market Price"
+#~ msgstr "市场价"
+
+#~ msgid "Our Price"
+#~ msgstr "本站价"
+
+#~ msgid "Cheap Price"
+#~ msgstr "促销价"
+
+#~ msgid "Use Currency"
+#~ msgstr "使用货币"
+
+#~ msgid "Shop Sidebar General Area"
+#~ msgstr "网店侧边栏通用区域"
+
+#~ msgid "The shop sidebar general area, if not use, it will display defaults."
+#~ msgstr "网店侧边栏通用区域,如不使用,请留空."
+
+#~ msgid "Shop Sidebar Multi Area "
+#~ msgstr "网店侧边栏混排Tab区域"
+
+#~ msgid "shop"
+#~ msgstr "网店"
+
+#~ msgid "must setting"
+#~ msgstr "必要设定"
+
+#~ msgid "Default Shop Currency"
+#~ msgstr "默认货币"
+
+#~ msgid "Shop Root Category"
+#~ msgstr "网店根目录"
+
+#~ msgid "Select categories set as shop category so as the subcategories."
+#~ msgstr "选择分类作为网店根目录,这样,其子分类也会作为网店分类来识别."
+
+#~ msgid "Shop Category showposts"
+#~ msgstr "网店分类默认每页显示数目"
+
+#~ msgid "Shop Recommend Page Select"
+#~ msgstr "网店推荐宝贝页面选择"
+
+#~ msgid "Select the page which you want to recognized as shop Recommend page."
+#~ msgstr "选择你想要作为网店推荐宝贝的页面."
+
+#~ msgid "Shop Cart Select"
+#~ msgstr "网店购物车设定"
+
+#~ msgid "Select the page which you want to recognized as shop cart page."
+#~ msgstr "选择你想要作为网店购物车的页面."
+
+#~ msgid "Shop Order Select"
+#~ msgstr "网店定单处理选择"
+
+#~ msgid "Select the page which you want to recognized as shop order page."
+#~ msgstr "选择你想要作为网店定单处理的页面."
+
+#~ msgid "Shop Order Manage Select"
+#~ msgstr "网店定单管理选择"
+
+#~ msgid ""
+#~ "Select the page which you want to recognized as shop order manage page."
+#~ msgstr "选择你想要作为网店定单管理的页面."
+
+#~ msgid "Shop Order Success Select"
+#~ msgstr "网店定单成功选择"
+
+#~ msgid ""
+#~ "Select the page which you want to recognized as shop order success page."
+#~ msgstr "选择你想要作为网站定单成功的页面."
+
+#~ msgid "Shop Order False Select"
+#~ msgstr "网店定单失败选择"
+
+#~ msgid ""
+#~ "Select the page which you want to recognized as shop order false page."
+#~ msgstr "选择你想要作为网店定单失败的页面."
+
+#~ msgid "Shop Order Search Select"
+#~ msgstr "网店定单搜索选择"
+
+#~ msgid ""
+#~ "Select the page which you want to recognized as shop order search page."
+#~ msgstr "选择你想要作为网店定单搜索的页面."
+
+#~ msgid "Header Area"
+#~ msgstr "页头区域"
+
+#~ msgid "The header area, if not use, it will display defaults."
+#~ msgstr "页头区域,如不使用,请留空."
+
+#~ msgid "About the Author"
+#~ msgstr "关于作者"
+
+#~ msgid "Keywords"
+#~ msgstr "关键词"
+
+#~ msgid ""
+#~ "The “Keywords” will be written as META keywords on your category page. "
+#~ "Don‘t stuff everything in here, use a comma separated list."
+#~ msgstr "关键词会出现在页面代码的Head区域中,请使用英文状态的逗号分隔."
+
+#~ msgid "red"
+#~ msgstr "红色"
+
+#~ msgid "blue"
+#~ msgstr "蓝色"
+
+#~ msgid "black"
+#~ msgstr "黑色"
+
+#~ msgid "%cat-keywords% - The category keywords"
+#~ msgstr "%cat-keywords% - 表示分类关键词"
+
+#~ msgid "%tag-keywords% - The tag keywords"
+#~ msgstr "%tag-keywords% - 表示文章标签的关键词"
+
+#~ msgid ""
+#~ "Select your slide use. Default it will choose from all posts or pages "
+#~ "which has slide settings."
+#~ msgstr "选择用于幻灯的项.默认使用所有设定幻灯的文章或页面."
+
+#~ msgid "Slide Posts or Pages"
+#~ msgstr "选择用于幻灯的文章或页面"
+
+#~ msgid ""
+#~ "Set your slide posts or pages numbers, comma separated. Must select use "
+#~ "posts or pages."
+#~ msgstr ""
+#~ "设定用于幻灯的文章或页面ID,以英文状态的逗号分隔.默认或选择使用文章或页面有"
+#~ "效."
+
+#~ msgid "Slide Categories"
+#~ msgstr "输入用于幻灯的分类"
+
+#~ msgid ""
+#~ "Set your slide categories numbers, comma separated. Must select use "
+#~ "categories."
+#~ msgstr ""
+#~ "设置用于幻灯的分类ID号,以英文状态的逗号分隔.必须选择使用所有分类才有效."
+
+#~ msgid "Set you slide limit number. Numbers only."
+#~ msgstr "设置你的幻灯片最大数量,仅使用数字."
+
+#~ msgid "use one of this: up, down, left, right, fade"
+#~ msgstr "仅可使用up,down,left,right,fade中的一个"
+
+#~ msgid ""
+#~ "Set you slide extra type. you can only use one of this: none, number  "
+#~ msgstr "设置幻灯额外信息,支持使用词语: none,number"
+
+#~ msgid "Slide URL"
+#~ msgstr "幻灯图片链接地址"
+
+#~ msgid "Do no use slide URL"
+#~ msgstr "此幻灯图片无链接"
+
+#~ msgid "If you check this, the side link for this image will not use. "
+#~ msgstr "勾选后此幻灯图片无跳转"
+
+#~ msgid "ask about this"
+#~ msgstr "寻求帮助"
+
+#~ msgid "sidebar area"
+#~ msgstr "侧边栏区域"
+
+#~ msgid "the sidebar area"
+#~ msgstr "通常的侧边栏区域"
+
+#~ msgid "Tracking Code"
+#~ msgstr "流量统计代码"
+
+#~ msgid ""
+#~ "Paste your Google Analytics (or other) tracking code here. This will be "
+#~ "added into the footer template of your theme."
+#~ msgstr ""
+#~ "请在此粘贴您的流量统计代码(如Google Analytics),这些代码将会插入到所有前台"
+#~ "显示网页的尾部."
+
+#~ msgid ""
+#~ "Select the category which you will set as product root category. Then the "
+#~ "subcategories of this category will recognized as product category."
+#~ msgstr "选择一个分类设定为你的产品根目录,那么,其子分类都会以产品的方式出现."
+
+#~ msgid "Spark Themes Setting"
+#~ msgstr "Spark主题设置"
+
+#~ msgid "My Thanks"
+#~ msgstr "致谢"
+
+#~ msgid "Thanks for choosing Spark Customize WordPress Themes"
+#~ msgstr "感谢您选择Wordpress定制型Spark主题"
+
+#~ msgid ""
+#~ "View more WordPress\n"
+#~ "\t\tThemes at <a href=\"http://themeforest.net/user/atozwordpress?"
+#~ "ref=atozwordpress\" target=\"_blank\">AtoZWordPress Profile</a> or <a "
+#~ "href=\"http://atozwordpress.com/\" target=\"_blank\">AtoZWordPress.Com</"
+#~ "a>. Get help at : <a href=\"http://atozwordpress.com/\" target=\"_blank\" "
+#~ "title=\"Click to visit our website\">http://atozwordpress.com</a> . Or "
+#~ "you can email us : <a href=\"mailto:atozwordpress.com@gmail.com"
+#~ "\">atozwordpress.com@gmail.com</a>, here to view chinese version: <a href="
+#~ "\"http://lizus.com/\" target=\"_blank\">Lizus.Com</a>"
+#~ msgstr ""
+#~ "点击<a href=\"http://lizus.com\" target=\"_blank\">Lizus.Com</a>查看更多"
+#~ "WordPress主题  获得帮助网址 : <a href=\"http://lizus.com/\" target="
+#~ "\"_blank\" title=\"Click to visit our website\">http://lizus.com</a> . 也"
+#~ "可发邮件至 : <a href=\"mailto:lizus.com@gmail.com\">lizus.com@gmail.com</"
+#~ "a> "
+
+#~ msgid ""
+#~ "Remember: when you change any setting, please scroll to end then click "
+#~ "the button \"Save All Changes\"."
+#~ msgstr "注意: 当你作任何更改后,请点击底部的\"保存所有设置\"按钮"
+
+#~ msgid ""
+#~ "If you thems support seo you can customize here. Go to post or page edit "
+#~ "to set the seo detail."
+#~ msgstr "如果你的主题支持SEO设定,你可以在此自定义."
+
+#~ msgid ""
+#~ "If you thems support slide you can customize here. Go to post or page "
+#~ "edit to set the slide item detail."
+#~ msgstr ""
+#~ "如果你的主题支持幻灯,你可以从这里进行全局设定.具体幻灯图片及细节设定,请至"
+#~ "你要设为幻灯的详细页中进行设定."
+
+#~ msgid "Menu Settings"
+#~ msgstr "栏目设置"
+
+#~ msgid "If you thems support special menu, you can customize here."
+#~ msgstr "如果你的主题支持特别的栏目的话,你可以在这里自定义设置."
+
+#~ msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+#~ msgstr "<a href=\"%1$s\">%2$s</a> 已登录."
+
+#~ msgid "Log out of this account"
+#~ msgstr "注销"
+
+#~ msgid "Log out &raquo;"
+#~ msgstr "注销 &raquo;"
+
+#~ msgid "<strong>XHTML:</strong> You can use these tags: <code>%s</code>"
+#~ msgstr "<strong>XHTML:</strong> 您可以使用如下标签: <code>%s</code>"
+
+#~ msgid "Input this product price, start with your currency symbol."
+#~ msgstr "请在此输入你的产品价格,以货币符号开头."
+
+#~ msgid "Product purchase URL"
+#~ msgstr "产品购买URL"
+
+#~ msgid "Input this product purchase URL here."
+#~ msgstr "请在此输入你的产品购买页的URL地址."
+
+#~ msgid "the footbar area before foot navigation with black background."
+#~ msgstr "在底部导航之上的小工具区域"
+
+#~ msgid "Page Left Sidebar Area"
+#~ msgstr "页面左侧区域"
+
+#~ msgid "If you use custom page template have left sidebar, it active."
+#~ msgstr "如果你使用页面模板包含有左侧边栏,此区域将会启用."
+
+#~ msgid "Page Right Sidebar Area"
+#~ msgstr "页面右侧区域"
+
+#~ msgid "Product Sidebar Area"
+#~ msgstr "产品侧边栏区域"
+
+#~ msgid "Facebook setting"
+#~ msgstr "Facebook设置"
+
+#~ msgid "Here to input your facebook name"
+#~ msgstr "请在此输入你的Facebook用户名"
+
+#~ msgid "Here to input your twitter name"
+#~ msgstr "请在此输入你的Twitter用户名"
+
+#~ msgid "Here to input your flickr name"
+#~ msgstr "请在此输入你的Flickr用户名"
+
+#~ msgid "Linkedin setting"
+#~ msgstr "Linkedin设置"
+
+#~ msgid "Here to input your linkedin name"
+#~ msgstr "请在此输入你的Linkedin用户名"
+
+#~ msgid "Youtube setting"
+#~ msgstr "Youtube设置"
+
+#~ msgid "Here to input your youtube name"
+#~ msgstr "请在此输入你的Youtube用户名"
+
+#~ msgid "Homepage Recent Products Posts Number"
+#~ msgstr "主页最新产品数量设定"
+
+#~ msgid ""
+#~ "Set a number to control you homepage products list posts show numbers, "
+#~ "default is 6."
+#~ msgstr "设定你的主页展示的最新产品数量,默认是6."
+
+#~ msgid ""
+#~ "Set a number to control you products list posts show numbers, default is "
+#~ "9."
+#~ msgstr "设定产品列表中产品的数量,默认是9"
+
+#~ msgid ""
+#~ "Select the category which you will set as news root category. Then the "
+#~ "subcategories of this category will recognized as news category."
+#~ msgstr ""
+#~ "选择一个目录设定为你的新闻的根目录,这样其子分类都会以新闻方式来识别."
+
+#~ msgid "About Us Page Select"
+#~ msgstr "关于我们页面设定"
+
+#~ msgid "Spark New Products Widget"
+#~ msgstr "Spark最新产品"
+
+#~ msgid "Spark Recent News Widget"
+#~ msgstr "Spark最新新闻"
+
+#~ msgid "Spark PrevNext Products Widget"
+#~ msgstr "Spark产品展示小工具"
+
+#~ msgid "Myspace setting"
+#~ msgstr "Myspace设置"
+
+#~ msgid "Here to input your myspace name"
+#~ msgstr "请在此输入你的Myspace用户名"
+
+#~ msgid "Product Sidebar Area."
+#~ msgstr "产品侧边栏"
+
+#~ msgid "Here to upload your website favicon"
+#~ msgstr "请在此上传你的地址栏小图标"
+
+#~ msgid "&laquo; Older Entries"
+#~ msgstr "&laquo; 前一页"
+
+#~ msgid "Newer Entries &raquo;"
+#~ msgstr "后一页 &raquo;"
+
+#~ msgid "In : %s"
+#~ msgstr "栏目Lizus名称: %s"
